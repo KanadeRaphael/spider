@@ -32,8 +32,8 @@ class ShopSpider:
                 name_list.append(name.get("title"))
 
         # 将结果保存为excel文档
-        workbook = xlwt.Workbook()  # 定义workbook
-        sheet = workbook.add_sheet("商品")  # 添加sheet
+        workbook = xlwt.Workbook()
+        sheet = workbook.add_sheet("商品")
         sheet.write(0, 0, "编号")
         sheet.write(0, 1, "商品名")
         j = 1
