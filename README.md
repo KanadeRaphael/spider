@@ -1,5 +1,5 @@
 # 根据群里的消息，修改了代码，发现一部分商品gid是3位数
-#2019/12/31
+2019/12/31\n
 www.xiaomiyoupin.com 获取分类索引的请求为 
   https://www.xiaomiyoupin.com/app/shopv3/pipe
 请求头：
