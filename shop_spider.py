@@ -18,7 +18,8 @@ class ShopSpider:
         for index in nav_list:
             nav = url + index.get_attribute("data-src")
             self.next_url.append(nav)
-
+        self.next_url = list(set(self.next_url))
+        print(len(self.next_url))
         # 获取商品信息
         gid_list = []
         name_list = []
